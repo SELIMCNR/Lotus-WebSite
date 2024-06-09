@@ -1,0 +1,23 @@
+<style>
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-container {
+    position: relative;
+    width: 33%;
+  }
+  .img-container img {
+    width: 100%;
+    height: auto;
+  }
+  .star-rating {
+    font-size: 1.5em;
+    color: gold;
+  }
+  .reviews {
+    font-size: 0.75em;
+    color: #555;
+    margin-left: 10px;
+  }
+</style>
