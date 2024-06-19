@@ -173,40 +173,89 @@
     <main class="container-lg bg-light p-2">
       <div class="row d-flex">
         <div class="col-10">
-          Adres seçimi
+          Ödeme Seçenekleri
           <div class="row">
-            <div class="col-10">
-              <a href="üye.html" class="btn btn-dark"
-                >Adres Ekle <i class=""> +</i></a
-              >
+            <div class="col-5 mt-4 p-4">
+              <button class="btn btn-light w-100" style="font-size: 12px">
+                <i class="fa fa-credit-card"></i> Kredi Kartı ile öde
+                <button class="btn btn-light">
+                  <h3>Garanti bbva</h3>
+                  <p>IBAN: TR9889 0939 0948 8574 8459 99</p>
+                  <p>Lotus kozmetik A.Ş</p>
+                </button>
+                <button class="btn btn-light">
+                  <h3>Garanti bbva</h3>
+                  <p>IBAN: TR9889 0939 0948 8574 8459 99</p>
+                  <p>Lotus kozmetik A.Ş</p>
+                </button>
+                <button class="btn btn-light">
+                  <h3>Garanti bbva</h3>
+                  <p>IBAN: TR9889 0939 0948 8574 8459 99</p>
+                  <p>Lotus kozmetik A.Ş</p>
+                </button>
+                <button class="btn btn-light">
+                  <h3>Garanti bbva</h3>
+                  <p>IBAN: TR9889 0939 0948 8574 8459 99</p>
+                  <p>Lotus kozmetik A.Ş</p>
+                </button>
+              </button>
             </div>
-            <div class="col-10 d-flex mt-4 p-4">
-              <section class="btn btn-outline-success me-4">
-                <h4>Ev Adresi</h4>
-                <p>Açık ev adresi</p>
-                <p>0651684684</p>
-                <p>İzmit/Kocaeli</p>
-              </section>
-              <section class="btn btn-outline-success me-4">
-                <h4>Ev Adresi</h4>
-                <p>Açık ev adresi</p>
-                <p>0651684684</p>
-                <p>İzmit/Kocaeli</p>
-              </section>
-              <section class="btn btn-outline-success me-4">
-                <h4>Ev Adresi</h4>
-                <p>Açık ev adresi</p>
-                <p>0651684684</p>
-                <p>İzmit/Kocaeli</p>
-              </section>
-              <section class="btn btn-outline-success">
-                <h4>Ev Adresi</h4>
-                <p>Açık ev adresi</p>
-                <p>0651684684</p>
-                <p>İzmit/Kocaeli</p>
-              </section>
+            <div class="col-5 mt-4 p-4">
+              <button class="btn btn-light w-100" style="font-size: 12px">
+                <i class="fa fa-credit-card"></i> Havale ile öde
+                <form>
+                  <label for="ad">Ödeme Yaptığınız Banka</label>
+                  <input
+                    type="text"
+                    name="ad"
+                    id="ad"
+                    class="form-control"
+                    placeholder="Ödeme Yaptığınız Banka"
+                    style="font-size: 12px"
+                  />
+                  <label for="tc">Tc Kimlik</label>
+                  <input
+                    type="text"
+                    name="tc"
+                    id="tc"
+                    class="form-control"
+                    placeholder=""
+                    style="font-size: 12px"
+                  />
+                  <label for="adsoyad">Ödemeyi Gönderen Ad,Soyad</label>
+                  <input
+                    type="text"
+                    name="adsoyad"
+                    id="adsoyad"
+                    class="form-control"
+                    placeholder="Ödemeyi Gönderen Ad,Soyad"
+                    style="font-size: 12px"
+                  />
+                  <label for="cep">Cep telefonu</label>
+                  <input
+                    type="text"
+                    name="cep"
+                    id="cep"
+                    class="form-control"
+                    placeholder="Cep telefonu"
+                    style="font-size: 12px"
+                  />
+                  <label for="tutar">
+                    Ödeme Tutarı
+                    <input
+                      type="text"
+                      name="tutar"
+                      id="tutar"
+                      class="form-control"
+                      placeholder="0"
+                      style="font-size: 12px"
+                    />
+                  </label>
+                  <input type="button" value="Ödeme yap" />
+                </form>
+              </button>
             </div>
-            <a class="btn btn-secondary w-25" href="ödeme.html">
+            <a class="btn btn-secondary w-25" href="özet.html">
               Siparişi Onayla
               <i class="fa-solid fa-arrow-right"></i>
             </a>
@@ -236,7 +285,7 @@
                   Uygula
                 </button>
               </form>
-              <a class="btn btn-secondary" href="ödeme.html">
+              <a class="btn btn-secondary" href="özet.html">
                 Siparişi Onayla
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
